@@ -1,0 +1,11 @@
+def linear_search(lst, target):
+  for index,elsement in enumerate(lst):
+    if elsement==target:
+      return index
+  return False
+lst=[4,2,5,1,3]
+target=5
+result=linear_search(lst,target)
+if result !=False:
+  print(f"elsement found at index{result}")
+  
